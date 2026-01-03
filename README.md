@@ -64,3 +64,34 @@ This version is intended for demonstration and explanation purposes.
 - Ensure that the paths are correct in all the app scripts and mobile app scripts.
 
 - Ensure that the testing device is connected to the same network as the computer running the script + change IP address accordingly in RushRecorder.swift and server.py
+
+
+## Technologies and Libraries Used
+
+### Data Processing & Machine Learning
+- **NumPy** – numerical computing and array-based operations  
+- **Pandas** – data manipulation, preprocessing, and tabular data handling  
+- **scikit-learn** – machine learning models, pipelines, and evaluation metrics  
+- **SciPy** – frequency-domain analysis (FFT) and scientific computations  
+
+### Model Persistence
+- **Joblib** – serialization and loading of trained models and pipelines  
+
+### Backend
+- **FastAPI** – REST API for real-time data ingestion and inference  
+- **Uvicorn** – ASGI server for running the FastAPI application  
+
+### Web Frontend
+- **Streamlit** – interactive web interface for live visualization and user feedback  
+- **Matplotlib** – plotting and analytical visualizations  
+- **Requests** – HTTP communication with the backend API  
+
+### Mobile Application
+- **SwiftUI** – user interface development for the iOS application  
+- **CoreMotion** – access to accelerometer data on iOS devices  
+
+### Supporting Modules
+- **pathlib** – platform-independent file system paths  
+- **io** – input/output stream handling  
+- **time** – timing and refresh control  
+- **datetime** – timestamps and time-based operations  
