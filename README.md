@@ -60,3 +60,7 @@ This version is intended for demonstration and explanation purposes.
 - Always run the backend and Streamlit apps in separate terminals.
 
 - Large datasets are intentionally excluded from version control.
+
+- Ensure that the paths are correct in all the app scripts and mobile app scripts.
+
+- Ensure that the testing device is connected to the same network as the computer running the script + change IP address accordingly in RushRecorder.swift and server.py
