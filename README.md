@@ -7,6 +7,12 @@ This repository contains a real-time demo and visualization app for the *Rush In
 ## Requirements
 - Python environment (`wisdm-env`) already created
 - Required packages installed (`fastapi`, `uvicorn`, `streamlit` and all modules/libraries used in this project)
+  ```
+  python3.13 -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
+  ```
+  
 - Project and dataset structure already set up
 
 ---
