@@ -27,7 +27,6 @@ There are some live metrics on display and the site offers some basic informatio
 
 ```bash
 cd root/of/the/project
-python -m venv
 source wisdm-env/bin/activate
 ```
 
@@ -58,7 +57,6 @@ From the project root, activate the environment and start the FastAPI server:
 
 ```bash
 cd root/of/the/project
-python -m venv 
 source wisdm-env/bin/activate
 
 cd realtime
@@ -74,8 +72,6 @@ Open a new terminal window, activate the same environment, and run the live app:
 ```bash
 cd wisdm-dataset
 source wisdm-env/bin/activate
-
-cd app
 streamlit run app/live_app.py
 ```
 
