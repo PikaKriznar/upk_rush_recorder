@@ -70,7 +70,7 @@ This starts the backend that provides live prediction data in real-time.
 Open a new terminal window, activate the same environment, and run the live app:
 
 ```bash
-cd wisdm-dataset
+cd root/of/the/project
 source wisdm-env/bin/activate
 streamlit run app/live_app.py
 ```
